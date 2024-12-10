@@ -51,7 +51,8 @@ export default function Home() {
           Made with ❤️ by Adam Xu
         </h2>
         <h3 className="text-lg w-full font-bold align-center text-center p-10 pt-0 text-amber-100">
-          {`Commit ${process.env.VERCEL_GIT_COMMIT_SHA || "LOCAL"}`} •{" "}
+          {`Commit ${process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA || "LOCAL"}`}{" "}
+          •{" "}
           <a
             href="https://github.com/AdamEXu/oedipus-project"
             className="underline transition duration-100 ease-in-out text-amber-200 hover:text-amber-50"
