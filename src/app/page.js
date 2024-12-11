@@ -93,7 +93,7 @@ function CardPair(props) {
   return (
     <motion.div
       ref={ref}
-      className="flex flex-col md:flex-row gap-0 w-full mb-0 md:mb-10"
+      className="flex flex-col md:flex-row gap-0 w-full mb-0 md:mb-10 mh-[600px] 4xl:w-[70%] 4xl:mx-[15%]"
       animate={{
         opacity: isInView ? 1 : 0,
         scale: isInView ? 1 : 0.5,
@@ -106,7 +106,8 @@ function CardPair(props) {
       <div className="text-center m-10 mb-0 md:mb-10 mr-10 md:mr-0">
         <img
           src={props.image}
-          className="md:rounded-l-xl rounded-t-xl md:rounded-tr-none transition duration-500 ease-in-out hover:opacity-80"
+          alt={props.title}
+          className="object-cover md:rounded-l-xl rounded-t-xl md:rounded-tr-none transition duration-500 ease-in-out hover:opacity-80 w-[800px] h-full"
         />
       </div>
       <div className="text-center bg-amber-50 text-black p-10 m-10 mt-0 md:mt-10 w-[calc(50% - 20px)] md:w-full ml-10 md:ml-0 md:rounded-r-xl rounded-b-xl md:rounded-bl-none transition duration-500 ease-in-out hover:bg-amber-100  ">
