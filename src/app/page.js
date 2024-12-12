@@ -14,7 +14,7 @@ export default function Home() {
         <CardPair
           image="/Oedipus-Birth.jpg"
           title="The Birth"
-          description="Oedipus was born in Thebes to Laius and Jocasta, the king and queen of Thebes. Shortly after Oedipus’ birth, Jocasta hears a prophecy from the gods that Oedipus would kill his father and marry his mother. Out of fear of this prophecy taking place, Jocasta sends Oedipus to be killed. However, the shepherd assigned the task could not bear to kill Oedipus, instead passing him off to a shepherd in Corinth, where Oedipus was raised by the king and queen of Corinth, Polybus and Merope. "
+          description="Oedipus was born in Thebes to Laius and Jocasta, the king and queen of Thebes. Shortly after Oedipus’ birth, Jocasta hears a prophecy from the gods that Oedipus would kill his father and marry his mother. Out of fear of this prophecy taking place, Jocasta sends Oedipus to be killed. However, the shepherd assigned the task could not bear to kill Oedipus, instead passing him off to a shepherd in Corinth, where Oedipus was raised by the king and queen of Corinth, Polybus and Merope."
         />
         <CardPair
           image="/Oedipus-Run.jpg"
@@ -31,6 +31,11 @@ export default function Home() {
           title="The Truth"
           description="Oedipus continues to piece together the puzzle that is Laius’ death, and in the process reveals so much about himself. He soon realizes the strangers he kills at the crossroad may have been Laius and his guard. As he struggles to comprehend this, Oedipus finds out that he was the son of Laius and Jocasta, that he was found by one of Polybus’ servants, and that he had fulfilled the prophecy in trying to run away from it."
         />
+        <CardPair
+          image="/Oedipus-Fall.jpg"
+          title="The Fall"
+          description="The truth is revealed to all. Jocasta, Oedipus’ mother and wife, is unable to bear it any further and takes her own life. Oedipus, realizing his blindness to the truth that had been in front of him the entire time, blinds himself to be more like Tiresias. Oedipus is no longer blinded by his ability to see."
+        />
       </div>
       <div className="w-screen flex flex-col items-start">
         <h1 className="text-6xl w-full font-bold align-center text-center">
@@ -38,17 +43,9 @@ export default function Home() {
         </h1>
         <div className="p-10 w-full md:px-[20%] text-center">
           <p className="text-xl mt-5">
-            Source 1 the longest of the longest of the longest of the longest of
-            the longest of the longest of the longest of the longest of the
-            longest of the longest of the longest of the longest of the longest
-            of the longest of the longest
+            Sophocles. Oedipus Rex. Translated by Robert Fagles, Penguin
+            Classics, 1984.
           </p>
-          <p className="text-xl mt-5">Source 2</p>
-          <p className="text-xl mt-5">
-            Source 3 is long is long is long is long is long is long is long is
-            long is long is long is long is long is long is long is long is long
-          </p>
-          <p className="text-xl mt-5">Source 4 is a bit long I guess</p>
         </div>
       </div>
       <footer>
@@ -57,7 +54,7 @@ export default function Home() {
         </h2>
         <h3 className="text-lg w-full font-bold align-center text-center p-10 pt-0 pb-0 text-amber-100">
           {`Commit ${
-            process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA?.slice(0, 7) ||
+            process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA?.slice(0, 6) ||
             "LOCAL"
           }`}{" "}
           •{" "}
