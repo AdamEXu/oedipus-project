@@ -34,7 +34,7 @@ export default function Home() {
         <CardPair
           image="/Oedipus-Fall.jpg"
           title="The Fall"
-          description="The truth is revealed to all. Jocasta, Oedipus’ mother and wife, is unable to bear it any further and takes her own life. Oedipus, realizing his blindness to the truth that had been in front of him the entire time, blinds himself to be more like Tiresias. Oedipus is no longer blinded by his ability to see."
+          description="The truth is revealed to all. Jocasta, Oedipus’ mother and wife, is unable to bear it any further and takes her own life. Oedipus, realizing his blindness to the truth that had been in front of him the entire time, blinds himself to be more like Tiresias. Oedipus is no longer blinded by his ability to see. Oedipus realizes that it is impossible to run away from fate."
         />
       </div>
       <div className="w-screen flex flex-col items-start">
