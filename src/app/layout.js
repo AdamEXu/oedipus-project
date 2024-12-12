@@ -3,8 +3,7 @@ import UnicornScript from "../components/UnicornScript";
 
 export const metadata = {
   title: "Adam's Oedipus Project",
-  description:
-    "Oedipus Oedipus Oedipus Oedipus Oedipus Oedipus Oedipus Oedipus Oedipus Oedipus Oedipus Oedipus Oedipus Oedipus Oedipus Oedipus",
+  description: "Adam Xu's website with the timeline of Oedipus. Enjoy!",
   keywords: "Oedipus",
 };
 
